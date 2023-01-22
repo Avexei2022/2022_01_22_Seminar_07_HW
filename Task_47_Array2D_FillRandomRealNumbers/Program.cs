@@ -24,7 +24,7 @@ double[,] CreateArray2D() {
         int.TryParse(Console.ReadLine(), out Rows);        
     }
     while (Columns < 1) {
-        Console.Write("Определите кличество столбцов (n): ");
+        Console.Write("Определите количество столбцов (n): ");
         int.TryParse(Console.ReadLine(), out Columns);        
     }    
     double[,] createdArray = new double[Rows, Columns];
